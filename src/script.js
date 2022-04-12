@@ -1,6 +1,7 @@
 const toggleBtn = document.querySelector('.toggle');
-const r = document.querySelector(':root');
 
+const r = document.querySelector(':root');
+import './style.css';
 function darkmode() {
   r.style.setProperty('--bg', 'hsl(230, 17%, 14%)');
   r.style.setProperty('--top-bg-pattern', 'hsl(232, 19%, 15%)');
